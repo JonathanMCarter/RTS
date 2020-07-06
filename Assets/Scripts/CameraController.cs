@@ -24,7 +24,7 @@ namespace CarterGames.RTS
             cam = GetComponent<Camera>();
             rB = GetComponent<Rigidbody>();
             moveBounds = new Vector2(Screen.width / 20, Screen.height / 20);
-            Cursor.lockState = CursorLockMode.Confined;
+            //Cursor.lockState = CursorLockMode.Confined;
         }
 
         private void Update()
